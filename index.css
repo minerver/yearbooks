@@ -1,0 +1,43 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+}
+
+body {
+    background-color: navy;
+}
+
+.border {
+    background-color: gray;
+    border: 2px solid white;
+    height: 700px;
+    margin: 40px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.quote {
+    font-size: medium;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.person {
+    width: 90px;
+    height: 120px;
+    border: 1px solid beige;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.border .fourthteen {
+    border: 2px solid gold;
+    flex-basis: 2;
+    justify-content: center;
+}
